@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        #h1{
+            text-align: center;
+        }
+        form{
+            background-color: rgb(174, 238, 223);
+            border: 3px solid black;
+            margin-left: 250px;
+            margin-right: 250px;
+            margin-bottom: 500px;
+            padding: 20px;
+        }
+        body{
+            background-image:url('C:/Users/THIS PC/Downloads/desktop-wallpaper-dark-future-world.jpg') ;
+            background-size: cover;
+           
+        }
+    </style>
+</head> 
+<body >
+    <h1 id="h1">Registration Form</h1>
+    <form  target="_blank">
+    <label for="Firstname">First name <input type="text" name="First name" id="Firstname"><br></label> 
+    <label for="Lastname"><br>Last name <input type="text" name="Last name" id="Lastname"></label><br>
+    <label for="Email"><br>Email <input type="email" name="Email" id="Email"><br></label> 
+    <label for="gender"><br>male <input type="radio" name="gender" id="gender"> Female<input type="radio" name="gender" id="gender"> Other<input type="radio" name="gender" id="gender"><br></label>
+    <label for="Date"><br>Date of Birth <input type="date" name="date" id="date"><br></label> 
+    <label for="mobile"><br>Mobile no <input type="number" name="mobile" id="mobile"><br></label>
+    <label for="eligible"><br>Are you 18 years old? <input type="checkbox" name="eligible" id="eligible" required><br></label>
+    <label for="occuption"><br>occuption</label>
+    <select name="occuption" id="occuption">
+        <option value="Student">Select</option>
+        <option value="Student">Student</option>
+        <option value="Teacher">Teacher</option>
+        <option value="other">Other</option>
+    </select><br>
+    <label for="Address"><br>Address<br><textarea name="text" cols="20" rows="5" id="Address"></textarea></label>
+    <!--<input type="image" src="C:\Users\THIS PC\OneDrive\Pictures\download.jpg"  width="500" height="608">-->
+    <br><input type="submit" value="submit now" id="submit" >
+    
+</form>
+</body>
+</html>
